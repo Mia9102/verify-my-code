@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简历</title>
+		<link rel="stylesheet" href="css/intorduction.css" / type="text/css">
+	</head>
+		<body>
+			<div id="information">
+		
+		 				<h1>个人简历<br>CURRICULUM VITAE<br></h1> 
+			 			<!--
+                    	作者：809506327@qq.com
+                    	时间：2019-05-29
+                    	描述：概述
+                   -->
+               <span >
+                <div id="infomation1" style="float: left;">   
+				 		<h3>--个人信息--</h3><br>
+				 		姓		名：宗<br>
+				 		电 	话：135xxxx9999<br>
+						邮 	箱：xxxx@xxx.<br>
+						年	龄：29<br >
+						住 	址：北京市朝阳区<br >工作经验：7年<br >	
+						
+											
+						<h3>--求职意向--</h3><br>
+						从事职业：车联网 销售经理<br >
+						期望月薪：20K-25K<br >
+						
+						
+						<h3>--教育背景--</h3><br>
+						学校名称：北京某大学<br >
+						就读时间：2007.07-2011.06<br >
+						所学专业：市场营销<br >
+						学历学位：本科<br >
+				</div>	
+					<!--
+                    	作者：809506327@qq.com
+                    	时间：2019-05-29
+                    	描述：经历
+                    -->
+				<div id="infomation2" style="float: right;">
+					<h3>-----工作经历-----</h3><br >
+					公司名称：北京某信息科技有限公司<br>
+					在职时间：2011.06-至今<br>
+					职位名称：大客户销售经理<br>	
+					税前月薪：15k-20k<br >
+					工作描述：工作经验的时间采取倒叙形式，最近经历写在前面；工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准<br >
+					<h3>-----项目经验-----</h3><br >
+					项目名称：某汽车品牌4S店保养管理系统<br >	
+					项目职位：项目经理<br >
+					项目时间：2010.09-2010.12<br>
+					1.内容清晰，结果导向；<br >
+					2.与目标申请岗位相结合，升华内容；<br >
+					3.STAR法则来写：Situation：在什么样的背景下？<br >
+					项目描述：此项目实现某主机厂全国4S店在线实时查询车主保养管理服务体系。<br >
+					项目职责：整体运作，促成发标项目落单；商务谈判及条款谈判负责人；<br >
+					<h3>-----自我评价-----</h3><br >
+					篇幅不要太长控制在300字以内，做到突出自身符合目标岗位要求的卖点，避免过多使用形容词，而通过数据及实例对自身价值进行深化<br>
+					如：X年以上销售管理经验，X届TopSales，数十个项目实操经验；在XX领域有XX公司从事销售与渠道管理经验，具备较强的成就动机与优秀的沟通说服能力；精通车联网行业产品销售，具有XX家汽车主机厂深厚客户资源，累计产生XX元销售额。								
+				</div>	
+			</span>
+		</div>
+	</body>
+</html>
+/*************************************************css*********************************************************************************/
+/*************************************************css*********************************************************************************/
+body{
+	font-family: verdana, geneva, arial, helvetica, sans-serif; 
+	font-size:  large;
+}
+h1,h3{
+	color: #00BFFF;
+	
+}
+
+
+#information{
+
+	border: solid deepskyblue 3px ;
+	border-radius: 15px;	
+	background-color:  brown;
+	height:80em;
+	text-align: center;
+	
+}
+#infomation1{
+
+	
+	border-radius: 15px;
+	border: solid 1PX deepskyblue;
+	width: 20%;
+	padding: 30px 167px 450px 100px;
+	background-color: azure;
+	line-height: 57px;
+	margin-top: 50px;
+	
+	
+}
+#infomation2{
+	border: solid 1PX deepskyblue;
+	border-radius: 15px;
+	width: 34%;
+	padding: 30px 249px 30px 400px;
+	background-color: azure;
+	line-height: 50px;
+	margin-top: 50px;
+}
+
